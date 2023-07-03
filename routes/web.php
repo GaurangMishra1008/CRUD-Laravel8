@@ -46,13 +46,13 @@ Route::get('View', function () {
 Route::get('/Update', function () {
     return view('Student.Update');
 });
-Route::get('/login', function () {
+Route::get('/login', fution () {
     if (session()->has('user'))
     {
         return redirect('Create');
     }
 
-    return view('logins');
+    return view('lo');
     
 });
 Route::get('/logout', function () {
