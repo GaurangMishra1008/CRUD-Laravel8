@@ -52,7 +52,7 @@ Route::get('/login', function () {
         return redirect('Create');
     }
 
-    return view('login');
+    return view('logins');
     
 });
 Route::get('/logout', function () {
